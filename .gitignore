@@ -6,3 +6,7 @@ main.o
 main
 3d-game-shaders-for-beginners.o
 3d-game-shaders-for-beginners
+
+.vs/**
+x64/**
+*.vcxproj.user
