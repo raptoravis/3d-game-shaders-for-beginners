@@ -1,3 +1,3 @@
 set PATH=%PANDA3D_ROOT%bin;%PATH%;
 
-.\shaders.exe
+.\x64\Debug\shaders.exe
