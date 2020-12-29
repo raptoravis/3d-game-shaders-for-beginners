@@ -4,7 +4,7 @@
 */
 
 #include <thread>
-#include <unistd.h>
+//#include "unistd.h"
 #include <random>
 #include <string>
 #include <chrono>
@@ -208,7 +208,7 @@ LColor mixColor
 // END FUNCTIONS
 
 // GLOBALS
-
+const float M_PI = 3.1415926;
 const float TO_RAD               = M_PI / 180.0;
 const LVecBase2f PI_SHADER_INPUT = LVecBase2f(M_PI, TO_RAD);
 
